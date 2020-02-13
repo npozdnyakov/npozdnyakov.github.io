@@ -27,14 +27,42 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.landingstart1 .holifestivalkrasokvindii9 {
+.landingstart1 .group4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
+  top                 : 55px;
+  height              : 801px;
+  width               : 1282px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landingstart1 .group4 .holifestivalkrasokvindii9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
   height              : 800px;
   width               : 1280px;
   position            : absolute;
   margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landingstart1 .group4 .rectangle1 {
+  background-color    : rgba(0, 0, 0, 0.37);
+  top                 : 0px;
+  height              : 746px;
+  box-sizing          : border-box;
+  width               : 1282px;
+  position            : absolute;
+  margin              : 0;
   left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
