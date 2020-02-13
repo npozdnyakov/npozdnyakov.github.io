@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1280, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/landingStart.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="landingstart"/>
+        <div class="landingstart">
+            <a href="./landingstart_bg4.html"><div style="width: 1280px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="https://media.giphy.com/media/8hWxmqDEmCECY/giphy.gif" class="holifestivalkrasokvindii9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/landing---start-rectangle-copy.png" class="rectanglecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="group">
+                    <img anima-src="./img/landing---start-btn@2x.png" class="btn-view" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/></a>
+                    <a href="./landingchooselng.html"><div class="u0432u044bu0431u0440u0430u0442u044cu044fu0437u044bu043au0434u043bu044fu0438u0437u0443">
+                        ВЫБРАТЬ ЯЗЫК ДЛЯ ИЗУЧЕНИЯ
+                    </div></a>
+                </div>
+                <div class="lingualeou2014u0438u0437u0443u0447u0430u0439u043b">
+                    <span class="span1">Lingualeo</span><span class="span2"> — изучай любой из 50 языков мира вместе с нами! </span>
+                </div>
+                <div class="u041fu0440u0438u0441u043eu0435u0434u0438u043du044fu0439u0441u044f">
+                    Присоединяйся!
+                </div>
+                <div class="theworldisyours">
+                    The World is Yours!
+                </div>
+                <div class="head">
+                    <img anima-src="./img/landing---start-bg.png" class="bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="u0411u044bu0441u0442u0440u0430u044fu0440u0435u0433u0438u0441u0442u0440u0430u0446u0438u044f">
+                        <div class="bg1">
+                        </div>
+                        <div class="u0412u043eu0439u0442u0438">
+                            Войти
+                        </div>
+                    </div>
+                    <div class="language">
+                        <div class="changelanguage">
+                            <div class="ru">
+                                RU
+                            </div>
+                            <img anima-src="./img/landing---choose-lng-icon@2x.png" class="icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/landing---choose-lng-icon-1@2x.png" class="icon1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </div>
+                    <img anima-src="./img/landing---reg-logo.png" class="logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="ud83cudf0e">
+                    🌎
+                </div>
+                <div class="rectangle">
+                </div>
+                <div class="group2">
+                    <div class="rectangle1">
+                    </div>
+                    <img anima-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png" class="bitmap" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="u0424u0435u0441u0442u0438u0432u0430u043bu044cu043au0440u0430u0441u043eu043au2014u0425">
+                    Carnaval In Rio (Brazil)
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
